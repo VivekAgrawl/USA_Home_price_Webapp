@@ -1,9 +1,0 @@
-Source: S&P Dow Jones Indices LLC  Release: S&P/Case-Shiller Home Price Indices  
-Units:  Index Jan 2000=100, Seasonally Adjusted
-
-Frequency:  Monthly
-
-For more information regarding the index, please visit Standard & Poor's. There is more information about home price sales pairs in the Methodology section. Copyright, 2016, Standard & Poor's Financial Services LLC. Reprinted with permission.
-
-Suggested Citation:
-S&P Dow Jones Indices LLC, S&P/Case-Shiller U.S. National Home Price Index [CSUSHPISA], retrieved from FRED, Federal Reserve Bank of St. Louis; https://fred.stlouisfed.org/series/CSUSHPISA, November 19, 2023.
