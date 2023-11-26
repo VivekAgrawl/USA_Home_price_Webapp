@@ -38,7 +38,7 @@ with tab1:
     with col2:
         st.divider()
         st.subheader("Home Price Index")
-        model = joblib.load("Model/model.pkl")
+        model = joblib.load("code/model.pkl")
         predictions = model.predict(df)
         st.success(f"**Prediction:** {predictions[0]:.2f}")
 
@@ -57,7 +57,7 @@ with tab1:
 with tab2:
     st.write("Implemented the Random Forest Regression Algorithm for a comprehensive feature importance analysis, achieving a notable R2 Score of 99.48%. This score indicates the model's effectiveness in explaining Home Price Index variance with selected features. Explore feature importance values to understand each factor's impact on enhancing predictive accuracy.")
     st.write(" ")
-    df_feature = pd.read_csv("Model/feature_importance.csv")
+    df_feature = pd.read_csv("code/feature_importance.csv")
     corr_chart = alt.Chart(df_feature, title = 'Feature Importance in Predicting Home Prices').mark_bar().encode(
             alt.Y("Feature", title = " ").sort("-x"),
             alt.X("Importance_Value:Q", title = "Feature Importance Score"),
